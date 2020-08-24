@@ -247,6 +247,12 @@
 	icon = 'modular_citadel/icons/mob/mam_ears.dmi'
 	color_src = SKINTONE
 
+datum/sprite_accessory/ears/human/gret
+	name = "Gret"
+	icon_state = "gret"
+	icon = 'modular_citadel/icons/mob/mam_ears.dmi'
+	color_src = SKINTONE
+
 /datum/sprite_accessory/ears/fennec
 	name = "Fennec"
 	icon_state = "fennec"
@@ -739,6 +745,18 @@
 	name = "Fox"
 	icon_state = "fox"
 
+/datum/sprite_accessory/mam_snouts/foxalt
+	name = "Fox Alt"
+	icon_state = "foxalt"
+
+/datum/sprite_accessory/mam_snouts/hshort
+	name = "Small"
+	icon_state = "short"
+
+/datum/sprite_accessory/mam_snouts/rabbit
+	name = "Rabbit"
+	icon_state = "rabbit"
+
 /datum/sprite_accessory/mam_snouts/hshark
 	name = "hShark"
 	icon_state = "hshark"
@@ -1052,6 +1070,11 @@
 /datum/sprite_accessory/mam_ears/elf
 	name = "Elf"
 	icon_state = "elf"
+	color_src = MUTCOLORS3
+
+/datum/sprite_accessory/mam_ears/gret
+	name = "Gret"
+	icon_state = "gret"
 	color_src = MUTCOLORS3
 
 
@@ -1748,7 +1771,7 @@ datum/sprite_accessory/mam_tails/insect
 /datum/sprite_accessory/taur/synthliz/wolf/inv
 	name = "Virgo - Synthetic Wolf (Inverted)"
 	icon_state = "synthwolfinv"
-	
+
 /******************************************
 *************** Ayyliums ******************
 *******************************************/
